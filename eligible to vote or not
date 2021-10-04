@@ -1,11 +1,13 @@
 Input age and check voting eligibility and teenage
 #include<iostream>
+#include<conio.h>
 using namespace std;
 
 int main()
 {
 	int age;
-
+        clrscr();
+	
 	cout<<"Enter your age: ";
 	cin>>age;
 
@@ -24,11 +26,11 @@ int main()
 	//condition to check voting eligility
 	if(age>=18)
 	{
-		cout<<"Personl is eligible for voting"<<endl;
+		cout<<"Person is eligible to vote"<<endl;
 	}
 	else
 	{
-		cout<<"Person is not eligible for voating"<<endl;
+		cout<<"Person is not eligible to vote"<<endl;
 	}
 
 	return 0;
